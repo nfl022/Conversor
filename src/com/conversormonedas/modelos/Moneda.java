@@ -11,7 +11,7 @@ public class Moneda {
     private double value;
 
     @SerializedName("base_code")
-    private String name;  // This corresponds to "base_code" in the JSON response.
+    private String name;  
 
     @SerializedName("origin")
     private String origin;
